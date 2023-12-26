@@ -15,6 +15,6 @@ public class TimeConverter {
     public static void main(String[] args) {
         String time12HourFormat = "11:59:59 PM";
         String militaryTime = toMilitaryTime(time12HourFormat);
-        System.out.println(militaryTime); // Output: 23:59:59
+        System.out.println(militaryTime); 
     }
 }
